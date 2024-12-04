@@ -1,0 +1,152 @@
+.signup-page {
+  height: 100vh; 
+  width: 100vw; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-image: url("https://img.freepik.com/premium-vector/abstract-concept-network-technology-lines-dots-connection-background-geometric_41981-3458.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+
+.signup-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+
+.signup-form h2 {
+  margin-bottom: 20px;  
+  font-size: 28px;  
+  color: #333;
+  width: 100%;
+  margin-left: 0;
+}
+
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.signup-form .error-message {
+  color: red;
+  font-size: 16px; 
+  margin-top: 15px;
+}
+
+
+.signup-form .signup-button {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+
+.signup-form .signup-button:hover {
+    background-color: #74b9ff;
+}
+
+
+.signup-form .redirect-login {
+  margin-top: 20px;
+  font-size: 16px;  
+}
+
+
+.signup-form .redirect-login a {
+  color: #0984e3;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.signup-form .redirect-login a:hover {
+  text-decoration: underline;
+}
+
+
+.google-signup {
+    margin-bottom: 20px;
+  }
+  
+
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.2s;
+  }
+
+  
+  .google-button:hover {
+    background: #f1f1f1;
+  }
+
+  
+  .google-icon {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+
+  .google-button span {
+    font-size: 14px; 
+    color: #555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #999;
+  }
+  
+
+  .divider:before,
+  .divider:after {
+    content: "";
+    flex: 1; 
+    height: 1px;
+    background: #ccc;
+  }
+  
+
+  .divider span {
+    margin: 0 10px;
+    white-space: nowrap; 
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
